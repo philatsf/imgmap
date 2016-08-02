@@ -27,7 +27,7 @@ import com.signalfx.metrics.protobuf.SignalFxProtocolBuffers.MetricType;
 
 public class ToHeatMap {
     private final static String SFXURL = "http://lab-ingest.corp.signalfuse.com:8080";
-    private final static String SFXTOKEN = "vGidYqKpj2dK1ddErgiezg";
+    private final static String SFXTOKEN = "";
     
     public static void main(String[] args) {
         File imageFile = getImageFile(args);
